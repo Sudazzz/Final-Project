@@ -2,23 +2,6 @@ var video;
 var button
 var w = 800;
 var h = 800;
-var snapshots = [];
-
-function setup() {
-  createCanvas(w, h);
-    video = createCapture(VIDEO, ready);
-    video.size(w, h);
-    //video.hide();
-  //button=createButton('snap');
-var video;
-var button
-var w = 800;
-var h = 800;
-
-var video;
-var button
-var w = 800;
-var h = 800;
 
 function setup() {
     video = createCapture({
@@ -53,4 +36,5 @@ function takesnap(){
   image(video, 400, 0, w/2, h/2);
   tint(200,200,200);
   image(video, 0, 400, w/2, h/2);
+  
 }
