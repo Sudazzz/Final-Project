@@ -36,5 +36,4 @@ function takesnap(){
   image(video, 400, 0, w/2, h/2);
   tint(200,200,200);
   image(video, 0, 400, w/2, h/2);
-  
 }
