@@ -23,7 +23,7 @@ function setup() {
 
 function draw() {
     video.loadPixels();
-    if (video.pixels.length > 0) { // don't forget this!
+    if (video.pixels.length > 0) { 
     }
 }
 
